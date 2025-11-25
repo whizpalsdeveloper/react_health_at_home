@@ -86,10 +86,10 @@
   }
   
   /* small focus style for accessible keyboard focus */
-  .selectable:focus {
+  /* .selectable:focus {
     outline: none;
     box-shadow: 0 0 0 6px rgba(43,161,192,0.15);
-  }
+  } */
   
   /* optional hover effect */
   .selectable:hover img {
