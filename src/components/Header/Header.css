@@ -1,0 +1,21 @@
+.header {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    background-image: url('/images/topFade_bg.png');
+    background-size: cover;     /* Scale to fit */
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .header-logo {
+    height: 60px;
+  }
+  
+  .powered-text {
+    font-size: 20px;
+    color: #3a5668;
+    font-weight: 600;
+  }
+  

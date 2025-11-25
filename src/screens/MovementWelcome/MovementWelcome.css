@@ -1,0 +1,39 @@
+.welcome-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .movement-title {
+    font-size: 22px;
+    color: #3a5668;
+    text-align: left;
+    margin-left: 40px;
+  }
+  
+  .welcome-title {
+    font-size: 36px;
+    margin-top: 20px;
+  }
+  
+  .welcome-text {
+    width: 70%;
+    margin: 25px auto;
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  
+  .button-row {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 40px;
+  }
+  
+  button {
+    padding: 12px 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    background: #cce6eb;
+    border: 1px solid #87aeb4;
+  }
+  
