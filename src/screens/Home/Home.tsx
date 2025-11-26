@@ -40,7 +40,7 @@ export default function Home() {
               onClick={() => navigate("/terms", { state: { feature: "movement" } })}
             >
               <img
-                src={focusIndex === 0 ? "/images/move_on.png" : "/images/move_off.png"}
+                src={focusIndex === 0 ? "./images/move_on.png" : "./images/move_off.png"}
                 alt="Movement Routines"
                 style={{ width: "100%", height: "100%", objectFit: "contain" }}
               />
@@ -51,7 +51,7 @@ export default function Home() {
               onClick={() => navigate("/prescriptions", { state: { feature: "prescriptions" } })}
             >
               <img
-                src={focusIndex === 1 ? "/images/order_on.png" : "/images/order_off.png"}
+                src={focusIndex === 1 ? "./images/order_on.png" : "./images/order_off.png"}
                 alt="Order Prescriptions"
                 style={{ width: "100%", height: "100%", objectFit: "contain" }}
               />
