@@ -1,73 +1,68 @@
-# React + TypeScript + Vite
+# Health At Home TV UI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+React + TypeScript + Vite application optimized for LG webOS TVs.  
+The app targets 1280×720 resolution, uses `HashRouter`, and is packaged via the LG `ares-cli`.
 
-Currently, two official plugins are available:
+## Requirements
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Node.js 18+ and npm 9+
+- webOS CLI tooling: `npm install -g @webosose/ares-cli`
+- LG webOS TV 24 Simulator (or a physical device in developer mode)
 
-## React Compiler
+Clone the repo and install dependencies:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+git clone <repo-url>
+cd tv-ui
+npm install
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## Local development
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+| Purpose | Command |
+| --- | --- |
+| Start dev server with HMR | `npm run dev` |
+| Type check + production bundle | `npm run build` |
+| Preview built bundle locally | `npm run preview` |
+| Lint sources | `npm run lint` |
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## Build + run on webOS simulator
+
+The simulator loads the contents of `webos/dist` via `file://`, so each release copies the freshly built `dist/` output into `webos/` before packaging.
+
+1. **Build for production**
+   ```bash
+   npm run build
+   ```
+2. **Sync build into webOS folder**
+   ```bash
+   rm -rf webos/dist
+   cp -R dist webos/
+   ```
+3. **Package (.ipk)**
+   ```bash
+   cd webos
+   ares-package .
+   ```
+   This produces `com.healthathome.tvui_1.0.0_all.ipk`.
+4. **Install into the simulator (simulator must be running)**
+   ```bash
+   ares-install com.healthathome.tvui_1.0.0_all.ipk
+   ```
+5. **Launch the app**
+   ```bash
+   ares-launch com.healthathome.tvui
+   ```
+6. **Inspect / debug (optional)**
+   ```bash
+   ares-inspect --device simulator com.healthathome.tvui
+   ```
+
+Each time you make code changes, repeat steps 1–5.  
+Icons (`icon.png`, `largeIcon.png`, `splash.png`) referenced in `webos/appinfo.json` already exist inside `webos/`.
+
+## Troubleshooting tips
+
+- If build fails with `Cannot find module @rollup/rollup-darwin-arm64`, delete `node_modules/` and `package-lock.json`, then rerun `npm install`.
+- Blank screen or routing errors inside the simulator usually mean the latest `dist/` output was not copied into `webos/`.
+- `net::ERR_FILE_NOT_FOUND` for images indicates absolute `/images/...` paths; keep asset references relative (e.g., `./images/foo.png`).
