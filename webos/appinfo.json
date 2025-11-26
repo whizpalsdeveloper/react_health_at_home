@@ -1,0 +1,11 @@
+{
+    "id": "com.healthathome.tvui",
+    "version": "1.0.0",
+    "vendor": "HealthAtHome",
+    "type": "web",
+    "main": "index.html",
+    "title": "Health At Home TV",
+    "icon": "icon.png",
+    "largeIcon": "largeIcon.png",
+    "uiRevision": 2
+  }
