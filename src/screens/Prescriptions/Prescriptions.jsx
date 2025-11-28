@@ -5,7 +5,8 @@ import "./Prescriptions.css";
 
 export default function Prescriptions() {
   const navigate = useNavigate();
-  const [focused, setFocused] = useState<boolean>(true); // Only one button (Back)
+  // const [focused, setFocused] = useState<boolean>(true); // Only one button (Back)
+  const [focused, setFocused] = useState(true);
 
   useTVNavigation({
     onEnter: () => navigate("/"),          // Enter → go back

@@ -7,7 +7,8 @@ import { useTVNavigation } from "../../tv/useTVNavigation";
 export default function Home() {
 
         const navigate = useNavigate();
-        const [focusIndex, setFocusIndex] = useState<number>(0); // 0: left (movement), 1: right (prescriptions)
+        const [focusIndex, setFocusIndex] = useState(0);
+        // const [focusIndex, setFocusIndex] = useState<number>(0); // 0: left (movement), 1: right (prescriptions)
       
         // Ensure first focus is set for keyboard users
         useEffect(() => {
