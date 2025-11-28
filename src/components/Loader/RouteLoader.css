@@ -1,0 +1,17 @@
+.route-loader-overlay {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  z-index: 9999;
+}
+
+.route-loader-image {
+  width: 156px;
+  height: 156px;
+  object-fit: contain;
+  image-rendering: crisp-edges;
+}
+
