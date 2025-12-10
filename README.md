@@ -1,6 +1,6 @@
 # Health At Home TV UI
 
-React + TypeScript + Vite application optimized for LG webOS TVs.  
+React + JavaScript + Vite application optimized for LG webOS TVs.  
 The app targets 1280×720 resolution, uses `HashRouter`, and is packaged via the LG `ares-cli`.
 
 ## Requirements
@@ -22,7 +22,7 @@ npm install
 | Purpose | Command |
 | --- | --- |
 | Start dev server with HMR | `npm run dev` |
-| Type check + production bundle | `npm run build` |
+| Production bundle | `npm run build` |
 | Preview built bundle locally | `npm run preview` |
 | Lint sources | `npm run lint` |
 

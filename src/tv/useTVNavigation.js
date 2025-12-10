@@ -1,19 +1,10 @@
-// File: src/tv/useTVNavigation.ts
+// File: src/tv/useTVNavigation.js
 import { useEffect } from "react";
 
-export interface TVNavHandlers {
-  onUp?: () => void;
-  onDown?: () => void;
-  onLeft?: () => void;
-  onRight?: () => void;
-  onEnter?: () => void;
-  onBack?: () => void;
-}
-
 /* Minimal TV key mapping hook. Use to register handlers for remote keys. */
-export function useTVNavigation(handlers: TVNavHandlers) {
+export function useTVNavigation(handlers) {
   useEffect(() => {
-    const onKey = (e: KeyboardEvent) => {
+    const onKey = (e) => {
       switch (e.key) {
         case "ArrowUp":
           handlers.onUp?.();
