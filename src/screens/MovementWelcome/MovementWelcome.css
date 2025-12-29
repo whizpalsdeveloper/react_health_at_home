@@ -1,39 +1,129 @@
-.welcome-container {
-    text-align: center;
-    padding: 20px;
-  }
-  
-  .movement-title {
-    font-size: 22px;
-    color: #3a5668;
-    text-align: left;
-    margin-left: 40px;
-  }
-  
-  .welcome-title {
-    font-size: 36px;
-    margin-top: 20px;
-  }
-  
-  .welcome-text {
-    width: 70%;
-    margin: 25px auto;
-    font-size: 18px;
-    line-height: 1.6;
-  }
-  
-  .button-row {
-    display: flex;
-    justify-content: center;
-    gap: 40px;
-    margin-top: 40px;
-  }
-  
-  button {
-    padding: 12px 30px;
-    font-size: 18px;
-    border-radius: 10px;
-    background: #cce6eb;
-    border: 1px solid #87aeb4;
-  }
-  
+#welcome-content {
+  position: absolute;
+  width: 1280px;
+  height: 720px;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 0;
+  background-color: #ffffff;
+  overflow: hidden;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+/* Header Background Fade */
+#welcome-bg {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1280px;
+  height: 172px;
+  background-size: 100% 100%;
+  background-image: url("/images/topFade_bg.png");
+  z-index: 1;
+}
+
+/* Logos */
+#welcome-header-logo-left {
+  position: absolute;
+  top: 31px;
+  left: 31px;
+  width: 244px;
+  height: 41px;
+  background-size: 100% 100%;
+  background-image: url("/images/smallCorner_Logo.png");
+  z-index: 5;
+}
+
+#welcome-header-logo-right {
+  position: absolute;
+  top: 30px;
+  left: 1010px;
+  width: 210px;
+  height: 67px;
+  background-size: 100% 100%;
+  background-image: url("/images/drNow_Logo_prescriptions.png");
+  z-index: 5;
+}
+
+/* Section Title & Icon */
+#welcome-section-icon {
+  position: absolute;
+  top: 88px;
+  left: 57px;
+  width: 66px;
+  height: 66px;
+  background-size: 100% 100%;
+  background-image: url("/images/Prescription_Red_icon.png");
+  z-index: 5;
+}
+
+#welcome-section-title {
+  position: absolute;
+  top: 102px;
+  left: 138px;
+  font-size: 26px;
+  line-height: 32px;
+  color: #2e656c;
+  z-index: 5;
+}
+
+/* Center Content */
+.welcome-main-container {
+  position: relative;
+  z-index: 10;
+  margin-top: 180px;
+  text-align: center;
+  padding: 0 100px;
+}
+
+.welcome-title {
+  font-size: 36px;
+  color: #1f2d3d;
+  margin-bottom: 30px;
+  font-weight: 500;
+}
+
+.welcome-text {
+  font-size: 17px;
+  line-height: 1.6;
+  color: #2c2c2c;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* Buttons */
+.welcome-button-row {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 60px;
+}
+
+.welcome-btn {
+  width: 175px;
+  height: 60px;
+  background-size: 100% 100%;
+  cursor: pointer;
+  transition: transform 0.1s ease;
+}
+
+.welcome-btn.focused {
+  transform: scale(1.05);
+}
+
+.welcome-btn.back {
+  background-image: url("/images/back_off.png");
+}
+
+.welcome-btn.back.focused {
+  background-image: url("/images/back_on.png");
+}
+
+.welcome-btn.agree {
+  width: 230px;
+  background-image: url("/images/agreeContinue_off.png");
+}
+
+.welcome-btn.agree.focused {
+  background-image: url("/images/agreeContinue_on.png");
+}

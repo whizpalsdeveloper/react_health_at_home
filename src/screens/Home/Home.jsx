@@ -18,7 +18,7 @@ export default function Home() {
     onRight: () => setFocusIndex((i) => Math.min(1, i + 1)),
     onEnter: () => {
       if (focusIndex === 0) {
-        navigate("/terms", { state: { feature: "movement" } });
+        navigate("/movement-welcome", { state: { feature: "movement" } });
       } else if (focusIndex === 1) {
         navigate("/prescriptions", { state: { feature: "prescriptions" } });
       }
@@ -36,7 +36,7 @@ export default function Home() {
       {/* big cards */}
       <div id="feature1-btn" className={`selectable ${focusIndex === 0 ? "focused" : ""}`} tabIndex={0}
         onMouseEnter={() => setFocusIndex(0)}
-        onClick={() => navigate("/terms", { state: { feature: "movement" } })}
+        onClick={() => navigate("/movement-welcome", { state: { feature: "movement" } })}
       >
         <img
           src={focusIndex === 0 ? "./images/move_on.png" : "./images/move_off.png"}
