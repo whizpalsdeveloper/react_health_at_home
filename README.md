@@ -3,6 +3,29 @@
 React + JavaScript + Vite application optimized for LG webOS TVs.  
 The app targets 1280×720 resolution, uses `HashRouter`, and is packaged via the LG `ares-cli`.
 
+## Features
+
+- **Movement Categories**: Dynamic category display with API integration
+- **TV Navigation**: Remote control navigation support for webOS
+- **Loading States**: Smooth loading experience with spinner components
+- **Responsive Design**: Optimized for TV screens and remote control interaction
+
+## Project Structure
+
+```
+src/
+├── components/          # Reusable UI components
+│   └── LoadingSpinner/  # Loading spinner component
+├── screens/             # Main application screens
+│   ├── Home/           # Landing page
+│   ├── MovementWelcome/ # Welcome/agreement screen
+│   ├── MovementCategories/ # Categories selection screen
+│   └── Prescriptions/  # Prescriptions screen
+├── services/           # API services and data management
+│   └── movementApi.js  # Movement categories API
+└── tv/                 # TV-specific navigation utilities
+```
+
 ## Requirements
 
 - Node.js 18+ and npm 9+

@@ -5,7 +5,7 @@ import "./MovementWelcome.css";
 
 export default function MovementWelcome() {
   const navigate = useNavigate();
-  const [focusIndex, setFocusIndex] = useState(1); // Default focus on Agree (index 1)
+  const [focusIndex, setFocusIndex] = useState(1);
 
   useTVNavigation({
     onLeft: () => setFocusIndex(0),
@@ -14,8 +14,7 @@ export default function MovementWelcome() {
       if (focusIndex === 0) {
         navigate("/");
       } else {
-        // Continue flow logic here
-        console.log("Agree & Continue");
+        navigate("/movement-categories");
       }
     },
     onBack: () => navigate("/"),
@@ -23,18 +22,14 @@ export default function MovementWelcome() {
 
   return (
     <div id="welcome-content">
-      {/* Top Fade Background */}
       <div id="welcome-bg" />
 
-      {/* Header Logos */}
       <div id="welcome-header-logo-left" title="Health at Home" />
       <div id="welcome-header-logo-right" title="Dr. Now Prescriptions" />
 
-      {/* Section Indicator */}
       <div id="welcome-section-icon" />
       <div id="welcome-section-title">Movement Routines</div>
 
-      {/* Main Container */}
       <div className="welcome-main-container">
         <h1 className="welcome-title">Welcome</h1>
 
@@ -50,7 +45,7 @@ export default function MovementWelcome() {
           />
           <div
             className={`welcome-btn agree ${focusIndex === 1 ? "focused" : ""}`}
-            onClick={() => console.log("Agree clicked")}
+            onClick={() => navigate("/movement-categories")}
             onMouseEnter={() => setFocusIndex(1)}
           />
         </div>
