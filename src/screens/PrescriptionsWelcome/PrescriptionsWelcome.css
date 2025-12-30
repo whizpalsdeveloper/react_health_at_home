@@ -1,0 +1,133 @@
+#prescriptions-welcome-container {
+    position: absolute;
+    width: 1280px;
+    height: 720px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 0;
+    background: #fff;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    overflow: hidden;
+}
+
+/* Background Fade (Reused) */
+#prescriptions-welcome-container #prescriptions-bg {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 1280px;
+    height: 172px;
+    background-size: 100% 100%;
+    background-image: url("/images/topFade_bg.png");
+}
+
+/* Logos and Titles (Reused positions to match Prescriptions page) */
+#prescriptions-welcome-container #drnow-logo-prescriptions {
+    position: absolute;
+    top: 30px;
+    left: 1010px;
+    width: 210px;
+    height: 67px;
+    background-size: 100% 100%;
+    background-image: url("/images/drNow_Logo_prescriptions.png");
+}
+
+#prescriptions-welcome-container #drnow-logo-small {
+    position: absolute;
+    top: 31px;
+    left: 60px;
+    width: 244px;
+    height: 41px;
+    background-size: 100% 100%;
+    background-image: url("/images/smallCorner_Logo.png");
+}
+
+#prescriptions-welcome-container #prescriptions-logo {
+    position: absolute;
+    top: 88px;
+    left: 57px;
+    width: 66px;
+    height: 66px;
+    background-size: 100% 100%;
+    background-image: url("/images/Prescription_Red_icon.png");
+}
+
+#prescriptions-welcome-container #prescriptions-title {
+    position: absolute;
+    top: 102px;
+    left: 138px;
+    width: 234px;
+    height: 31px;
+    text-align: left;
+    font-size: 26px;
+    line-height: 32px;
+    color: #2E656C;
+}
+
+/* Welcome Content */
+#prescriptions-welcome-container .welcome-content {
+    position: absolute;
+    top: 180px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 800px;
+    text-align: center;
+    color: #2E656C;
+}
+
+#prescriptions-welcome-container .welcome-content h1 {
+    font-size: 40px;
+    margin-bottom: 30px;
+    font-weight: normal;
+    color: #003038;
+}
+
+#prescriptions-welcome-container .welcome-content p {
+    font-size: 20px;
+    line-height: 1.5;
+    color: #003038;
+}
+
+/* Buttons */
+#prescriptions-welcome-container .welcome-actions {
+    position: absolute;
+    bottom: 80px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 30px;
+}
+
+#prescriptions-welcome-container .welcome-btn {
+    width: 175px;
+    height: 60px;
+    background-size: 100% 100%;
+    cursor: pointer;
+    transition: transform 0.1s ease;
+    border: none;
+    background-color: transparent;
+    box-shadow: none;
+}
+
+#prescriptions-welcome-container .welcome-btn.focused {
+    transform: scale(1.05);
+    box-shadow: none;
+    outline: none;
+}
+
+#prescriptions-welcome-container .welcome-btn.back {
+    background-image: url("/images/back_off.png");
+}
+
+#prescriptions-welcome-container .welcome-btn.back.focused {
+    background-image: url("/images/back_on.png");
+}
+
+#prescriptions-welcome-container .welcome-btn.agree {
+    width: 230px;
+    background-image: url("/images/agreeContinue_off.png");
+}
+
+#prescriptions-welcome-container .welcome-btn.agree.focused {
+    background-image: url("/images/agreeContinue_on.png");
+}

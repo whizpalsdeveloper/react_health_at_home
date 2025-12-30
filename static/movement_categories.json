@@ -1,0 +1,442 @@
+[
+    {
+        "id": 1,
+        "name": "Chronic Diseases",
+        "description": "FunAndMoving.com has built an entire platform of routines specifically for all of us suffering from chronic diseases. Here are a just a few of our over 1650 designed for High Blood Pressure, Diabetes, COPD, and Parkinson’s.",
+        "hero": "https://health-at-home-content.ingage.tv/ChronicDiseases_hero.png",
+        "subcategories": [
+            {
+                "title": "Seated",
+                "description": "These workouts are easy to do from the comfort of a secure and stable chair because consistent movement is the key to managing your chronic illness.",
+                "videos": [
+                    {
+                        "video_title": "Focus on Diabetes and High Blood Pressure",
+                        "duration": 1812,
+                        "thumbnail": "https://health-at-home-content.ingage.tv/Focus_on_Diabetes_and_High_Blood_Pressure.png",
+                        "url": "https://health-at-home-content.ingage.tv/Focus_on_Diabetes_and_High_Blood_Pressure.mp4"
+                    },
+                    {
+                        "video_title": "Special attention to HBP and Diabetes",
+                        "duration": 1550,
+                        "thumbnail": "https://health-at-home-content.ingage.tv/Special_attention_to_HBP_and_Diabetes.png",
+                        "url": "https://health-at-home-content.ingage.tv/Special_attention_to_HBP_and_Diabetes.mp4"
+                    },
+                    {
+                        "video_title": "Movement and Dexterity for Parkinson's",
+                        "duration": 1145,
+                        "thumbnail": "https://health-at-home-content.ingage.tv/Movement_and_Dexterity_for_Parkinson_s.png",
+                        "url": "https://health-at-home-content.ingage.tv/Movement_and_Dexterity_for_Parkinson_s.mp4"
+                    },
+                    {
+                        "video_title": "Movement and Strength for Parkinson's",
+                        "duration": 1470,
+                        "thumbnail": "https://health-at-home-content.ingage.tv/Movement_and_Strength_for_Parkinson_s.png",
+                        "url": "https://health-at-home-content.ingage.tv/Movement_and_Strength_for_Parkinson_s.mp4"
+                    },
+                    {
+                        "video_title": "Getting strong for COPD",
+                        "duration": 1413,
+                        "thumbnail": "https://health-at-home-content.ingage.tv/Getting_strong_for_COPD.png",
+                        "url": "https://health-at-home-content.ingage.tv/Getting_strong_for_COPD.mp4"
+                    },
+                    {
+                        "video_title": "Breathe easy for COPD",
+                        "duration": 1331,
+                        "thumbnail": "https://health-at-home-content.ingage.tv/Breathe_easy_for_COPD.png",
+                        "url": "https://health-at-home-content.ingage.tv/Breathe_easy_for_COPD.mp4"
+                    }
+                ]
+            },
+            {
+                "title": "Seated and standing",
+                "description": "These are a little more challenging, requiring some standing and using a secure and stable chair for balance; this is our second level of difficulty.",
+                "videos": [
+                    {
+                        "video_title": "Strength, Cardio, and Balance for Diabetes",
+                        "duration": 1848,
+                        "thumbnail": "https://health-at-home-content.ingage.tv/Strength_Cardio_and_Balance_for_Diabetes.png",
+                        "url": "https://health-at-home-content.ingage.tv/Strength_Cardio_and_Balance_for_Diabetes.mp4"
+                    },
+                    {
+                        "video_title": "High Blood Pressure or Diabetes Focus",
+                        "duration": 1564,
+                        "thumbnail": "https://health-at-home-content.ingage.tv/High_Blood_Pressure_or_Diabetes_Focus.png",
+                        "url": "https://health-at-home-content.ingage.tv/High_Blood_Pressure_or_Diabetes_Focus.mp4"
+                    },
+                    {
+                        "video_title": "Everyday Tasks and Balance for Parkinson's",
+                        "duration": 1488,
+                        "thumbnail": "https://health-at-home-content.ingage.tv/Everyday_Tasks_and_Balance_for_Parkinson_s.png",
+                        "url": "https://health-at-home-content.ingage.tv/Everyday_Tasks_and_Balance_for_Parkinson_s.mp4"
+                    },
+                    {
+                        "video_title": "Improving Movement for Parkinson's",
+                        "duration": 1972,
+                        "thumbnail": "https://health-at-home-content.ingage.tv/Improving_Movement_for_Parkinson_s.png",
+                        "url": "https://health-at-home-content.ingage.tv/Improving_Movement_for_Parkinson_s.mp4"
+                    },
+                    {
+                        "video_title": "Strong heart, strong body for COPD",
+                        "duration": 1406,
+                        "thumbnail": "https://health-at-home-content.ingage.tv/Strong_heart_strong_body_for_COPD.png",
+                        "url": "https://health-at-home-content.ingage.tv/Strong_heart_strong_body_for_COPD.mp4"
+                    },
+                    {
+                        "video_title": "Breathe and move for COPD",
+                        "duration": 1503,
+                        "thumbnail": "https://health-at-home-content.ingage.tv/Breathe_and_move_for_COPD.png",
+                        "url": "https://health-at-home-content.ingage.tv/Breathe_and_move_for_COPD.mp4"
+                    }
+                ]
+            },
+            {
+                "title": "Standing",
+                "description": "This  is our most challenging section, but still full of variety because consistent physical activity is the key to managing your chronic illness.",
+                "videos": [
+                    {
+                        "video_title": "Staying Active with HBP or Diabetes",
+                        "duration": 1665,
+                        "thumbnail": "https://health-at-home-content.ingage.tv/Staying_Active_with_HBP_or_Diabetes.png",
+                        "url": "https://health-at-home-content.ingage.tv/Staying_Active_with_HBP_or_Diabetes.mp4"
+                    },
+                    {
+                        "video_title": "Keep the Body Moving for Diabetes",
+                        "duration": 1888,
+                        "thumbnail": "https://health-at-home-content.ingage.tv/Keep_the_Body_Moving_for_Diabetes.png",
+                        "url": "https://health-at-home-content.ingage.tv/Keep_the_Body_Moving_for_Diabetes.mp4"
+                    },
+                    {
+                        "video_title": "For the Car for Parkinson's",
+                        "duration": 1243,
+                        "thumbnail": "https://health-at-home-content.ingage.tv/For_the_Car_for_Parkinson_s.png",
+                        "url": "https://health-at-home-content.ingage.tv/For_the_Car_for_Parkinson_s.mp4"
+                    },
+                    {
+                        "video_title": "Strong and Stable for Parkinson's",
+                        "duration": 1487,
+                        "thumbnail": "https://health-at-home-content.ingage.tv/Strong_and_Stable_for_Parkinson_s.png",
+                        "url": "https://health-at-home-content.ingage.tv/Strong_and_Stable_for_Parkinson_s.mp4"
+                    },
+                    {
+                        "video_title": "Strong and energized for COPD",
+                        "duration": 1211,
+                        "thumbnail": "https://health-at-home-content.ingage.tv/Strong_and_energized_for_COPD.png",
+                        "url": "https://health-at-home-content.ingage.tv/Strong_and_energized_for_COPD.mp4"
+                    },
+                    {
+                        "video_title": "Breathe well, move well for COPD",
+                        "duration": 1487,
+                        "thumbnail": "https://health-at-home-content.ingage.tv/Breathe_well_move_well_for_COPD.png",
+                        "url": "https://health-at-home-content.ingage.tv/Breathe_well_move_well_for_COPD.mp4"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Memory",
+        "description": "FunAndMoving.com has built over 100 memory routines at three levels of cognition for all of us aging in place. Here are just a few for those of us with loved ones most severely afflicted with Alzheimer’s or any form of dementia, focusing on cognitive function, working on speech, coordination, and circulation.",
+        "hero": "https://health-at-home-content.ingage.tv/Memory_hero.png",
+        "subcategories": [
+            {
+                "title": "Dementia",
+                "description": "These concentrate on coordination, circulation, and speech, but you will find more variety of memory routines on our parent site FunAndMoving.com.",
+                "videos": [
+                    {
+                        "video_title": "INTRO",
+                        "duration": 60,
+                        "thumbnail": "https://health-at-home-content.ingage.tv/INTRO_2.png",
+                        "url": "https://health-at-home-content.ingage.tv/INTRO_2.mp4"
+                    },
+                    {
+                        "video_title": "Strength",
+                        "duration": 1193,
+                        "thumbnail": "https://health-at-home-content.ingage.tv/Strength.png",
+                        "url": "https://health-at-home-content.ingage.tv/Strength.mp4"
+                    },
+                    {
+                        "video_title": "Pushes and Pulls",
+                        "duration": 776,
+                        "thumbnail": "https://health-at-home-content.ingage.tv/Pushes_and_Pulls.png",
+                        "url": "https://health-at-home-content.ingage.tv/Pushes_and_Pulls.mp4"
+                    },
+                    {
+                        "video_title": "Aerobic",
+                        "duration": 691,
+                        "thumbnail": "https://health-at-home-content.ingage.tv/Aerobic.png",
+                        "url": "https://health-at-home-content.ingage.tv/Aerobic.mp4"
+                    },
+                    {
+                        "video_title": "Joint Mobility",
+                        "duration": 1129,
+                        "thumbnail": "https://health-at-home-content.ingage.tv/Joint_Mobility.png",
+                        "url": "https://health-at-home-content.ingage.tv/Joint_Mobility.mp4"
+                    },
+                    {
+                        "video_title": "Get the Joints Moving",
+                        "duration": 923,
+                        "thumbnail": "https://health-at-home-content.ingage.tv/Get_the_Joints_Moving.png",
+                        "url": "https://health-at-home-content.ingage.tv/Get_the_Joints_Moving.mp4"
+                    },
+                    {
+                        "video_title": "Aerobic",
+                        "duration": 1093,
+                        "thumbnail": "https://health-at-home-content.ingage.tv/Aerobic_2.png",
+                        "url": "https://health-at-home-content.ingage.tv/Aerobic_2.mp4"
+                    },
+                    {
+                        "video_title": "Ballroom Dance",
+                        "duration": 1014,
+                        "thumbnail": "https://health-at-home-content.ingage.tv/Ballroom_Dance.png",
+                        "url": "https://health-at-home-content.ingage.tv/Ballroom_Dance.mp4"
+                    },
+                    {
+                        "video_title": "Ballet Moves",
+                        "duration": 946,
+                        "thumbnail": "https://health-at-home-content.ingage.tv/Ballet_Moves.png",
+                        "url": "https://health-at-home-content.ingage.tv/Ballet_Moves.mp4"
+                    },
+                    {
+                        "video_title": "Yoga",
+                        "duration": 855,
+                        "thumbnail": "https://health-at-home-content.ingage.tv/Yoga.png",
+                        "url": "https://health-at-home-content.ingage.tv/Yoga.mp4"
+                    },
+                    {
+                        "video_title": "Hand Dexterity",
+                        "duration": 987,
+                        "thumbnail": "https://health-at-home-content.ingage.tv/Hand_Dexterity.png",
+                        "url": "https://health-at-home-content.ingage.tv/Hand_Dexterity.mp4"
+                    },
+                    {
+                        "video_title": "Coordination",
+                        "duration": 814,
+                        "thumbnail": "https://health-at-home-content.ingage.tv/Coordination.png",
+                        "url": "https://health-at-home-content.ingage.tv/Coordination.mp4"
+                    },
+                    {
+                        "video_title": "Coordination",
+                        "duration": 781,
+                        "thumbnail": "https://health-at-home-content.ingage.tv/Coordination_2.png",
+                        "url": "https://health-at-home-content.ingage.tv/Coordination_2.mp4"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Bed Routines",
+        "description": "For all of our brothers and sisters bed-bound, whether temporary or permanent, FunAndMoving.com has created over 150 bed routines, both seated and lying down, to improve circulation, range of motion, and muscle tone.",
+        "hero": "https://health-at-home-content.ingage.tv/Bed_hero.png",
+        "subcategories": [
+            {
+                "title": "Lying down",
+                "description": "These gentle and safe routines are designed to increase circulation, promote healing, and increase range of motion all from a lying down position.",
+                "videos": [
+                    {
+                        "video_title": "Gentle Good Night",
+                        "duration": 720,
+                        "thumbnail": "https://health-at-home-content.ingage.tv/Gentle_Good_Night.png",
+                        "url": "https://health-at-home-content.ingage.tv/Gentle_Good_Night.mp4"
+                    },
+                    {
+                        "video_title": "Stay Where You Are",
+                        "duration": 1334,
+                        "thumbnail": "https://health-at-home-content.ingage.tv/Stay_Where_You_Are.png",
+                        "url": "https://health-at-home-content.ingage.tv/Stay_Where_You_Are.mp4"
+                    },
+                    {
+                        "video_title": "Self-Care Stretch",
+                        "duration": 1800,
+                        "thumbnail": "https://health-at-home-content.ingage.tv/Self_Care_Stretch.png",
+                        "url": "https://health-at-home-content.ingage.tv/Self_Care_Stretch.mp4"
+                    },
+                    {
+                        "video_title": "Easy Dance for Circulation",
+                        "duration": 913,
+                        "thumbnail": "https://health-at-home-content.ingage.tv/Easy_Dance_for_Circulation.png",
+                        "url": "https://health-at-home-content.ingage.tv/Easy_Dance_for_Circulation.mp4"
+                    },
+                    {
+                        "video_title": "Bed Yoga",
+                        "duration": 821,
+                        "thumbnail": "https://health-at-home-content.ingage.tv/Bed_Yoga.png",
+                        "url": "https://health-at-home-content.ingage.tv/Bed_Yoga.mp4"
+                    },
+                    {
+                        "video_title": "Recovery Lower Body Only",
+                        "duration": 1363,
+                        "thumbnail": "https://health-at-home-content.ingage.tv/Recovery_Lower_Body_Only.png",
+                        "url": "https://health-at-home-content.ingage.tv/Recovery_Lower_Body_Only.mp4"
+                    },
+                    {
+                        "video_title": "Healing the body",
+                        "duration": 942,
+                        "thumbnail": "https://health-at-home-content.ingage.tv/Healing_the_body.png",
+                        "url": "https://health-at-home-content.ingage.tv/Healing_the_body.mp4"
+                    },
+                    {
+                        "video_title": "Keep Your Spirits High",
+                        "duration": 889,
+                        "thumbnail": "https://health-at-home-content.ingage.tv/Keep_Your_Spirits_High.png",
+                        "url": "https://health-at-home-content.ingage.tv/Keep_Your_Spirits_High.mp4"
+                    },
+                    {
+                        "video_title": "Ease Low Back Pain",
+                        "duration": 854,
+                        "thumbnail": "https://health-at-home-content.ingage.tv/Ease_Low_Back_Pain.png",
+                        "url": "https://health-at-home-content.ingage.tv/Ease_Low_Back_Pain.mp4"
+                    },
+                    {
+                        "video_title": "Count on it!",
+                        "duration": 1046,
+                        "thumbnail": "https://health-at-home-content.ingage.tv/Count_on_it.png",
+                        "url": "https://health-at-home-content.ingage.tv/Count_on_it.mp4"
+                    }
+                ]
+            },
+            {
+                "title": "Seated",
+                "description": "These are designed to increase circulation, promote healing, increase range of motion, and improve muscle tone from a seated position in bed.",
+                "videos": [
+                    {
+                        "video_title": "Bed Tai Chi Moves",
+                        "duration": 1503,
+                        "thumbnail": "https://health-at-home-content.ingage.tv/Bed_Tai_Chi_Moves.png",
+                        "url": "https://health-at-home-content.ingage.tv/Bed_Tai_Chi_Moves.mp4"
+                    },
+                    {
+                        "video_title": "Ease Tension & Tightness",
+                        "duration": 966,
+                        "thumbnail": "https://health-at-home-content.ingage.tv/Ease_Tension_Tightness.png",
+                        "url": "https://health-at-home-content.ingage.tv/Ease_Tension_Tightness.mp4"
+                    },
+                    {
+                        "video_title": "Breathing and Stretching",
+                        "duration": 1466,
+                        "thumbnail": "https://health-at-home-content.ingage.tv/Breathing_and_Stretching.png",
+                        "url": "https://health-at-home-content.ingage.tv/Breathing_and_Stretching.mp4"
+                    },
+                    {
+                        "video_title": "You're Special",
+                        "duration": 1370,
+                        "thumbnail": "https://health-at-home-content.ingage.tv/You_re_Special.png",
+                        "url": "https://health-at-home-content.ingage.tv/You_re_Special.mp4"
+                    },
+                    {
+                        "video_title": "Recovery Upper Body Only",
+                        "duration": 1674,
+                        "thumbnail": "https://health-at-home-content.ingage.tv/Recovery_Upper_Body_Only.png",
+                        "url": "https://health-at-home-content.ingage.tv/Recovery_Upper_Body_Only.mp4"
+                    },
+                    {
+                        "video_title": "Lower Body Only",
+                        "duration": 1363,
+                        "thumbnail": "https://health-at-home-content.ingage.tv/Lower_Body_Only.png",
+                        "url": "https://health-at-home-content.ingage.tv/Lower_Body_Only.mp4"
+                    },
+                    {
+                        "video_title": "Dance Upper Body Only",
+                        "duration": 1574,
+                        "thumbnail": "https://health-at-home-content.ingage.tv/Dance_Upper_Body_Only.png",
+                        "url": "https://health-at-home-content.ingage.tv/Dance_Upper_Body_Only.mp4"
+                    },
+                    {
+                        "video_title": "Absolutely!",
+                        "duration": 1294,
+                        "thumbnail": "https://health-at-home-content.ingage.tv/Absolutely.png",
+                        "url": "https://health-at-home-content.ingage.tv/Absolutely.mp4"
+                    },
+                    {
+                        "video_title": "Concentrate on You",
+                        "duration": 1144,
+                        "thumbnail": "https://health-at-home-content.ingage.tv/Concentrate_on_You.png",
+                        "url": "https://health-at-home-content.ingage.tv/Concentrate_on_You.mp4"
+                    },
+                    {
+                        "video_title": "Upper Body Only",
+                        "duration": 1674,
+                        "thumbnail": "https://health-at-home-content.ingage.tv/Upper_Body_Only.png",
+                        "url": "https://health-at-home-content.ingage.tv/Upper_Body_Only.mp4"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Balance and Fall Prevention",
+        "description": "As we age, or due to stroke, our balance becomes more unsettled. FunAndMoving.com has designed a series of Balance and Fall Prevention routines based on the Otago Method for those of us aging with dignity in our homes.",
+        "hero": "https://health-at-home-content.ingage.tv/Balance_hero.png",
+        "subcategories": [
+            {
+                "title": "Beginner",
+                "description": "These progressive movement routines concentrate on strength, coordination, and flexibility as well as balance for those of us who are deconditioned.",
+                "videos": [
+                    {
+                        "video_title": "INTRO",
+                        "duration": 43,
+                        "thumbnail": "https://health-at-home-content.ingage.tv/INTRO.png",
+                        "url": "https://health-at-home-content.ingage.tv/INTRO.mp4"
+                    },
+                    {
+                        "video_title": "Seated Balance",
+                        "duration": 1244,
+                        "thumbnail": "https://health-at-home-content.ingage.tv/Seated_Balance.png",
+                        "url": "https://health-at-home-content.ingage.tv/Seated_Balance.mp4"
+                    },
+                    {
+                        "video_title": "Seated Balance #2",
+                        "duration": 1643,
+                        "thumbnail": "https://health-at-home-content.ingage.tv/Seated_Balance_2.png",
+                        "url": "https://health-at-home-content.ingage.tv/Seated_Balance_2.mp4"
+                    },
+                    {
+                        "video_title": "Recovery Balance",
+                        "duration": 1391,
+                        "thumbnail": "https://health-at-home-content.ingage.tv/Recovery_Balance.png",
+                        "url": "https://health-at-home-content.ingage.tv/Recovery_Balance.mp4"
+                    },
+                    {
+                        "video_title": "Sit to Stand",
+                        "duration": 1093,
+                        "thumbnail": "https://health-at-home-content.ingage.tv/Sit_to_Stand.png",
+                        "url": "https://health-at-home-content.ingage.tv/Sit_to_Stand.mp4"
+                    },
+                    {
+                        "video_title": "Tandom Stance",
+                        "duration": 930,
+                        "thumbnail": "https://health-at-home-content.ingage.tv/Tandom_Stance.png",
+                        "url": "https://health-at-home-content.ingage.tv/Tandom_Stance.mp4"
+                    },
+                    {
+                        "video_title": "Tandem Walking",
+                        "duration": 892,
+                        "thumbnail": "https://health-at-home-content.ingage.tv/Tandem_Walking.png",
+                        "url": "https://health-at-home-content.ingage.tv/Tandem_Walking.mp4"
+                    },
+                    {
+                        "video_title": "Sit to Stand II",
+                        "duration": 1955,
+                        "thumbnail": "https://health-at-home-content.ingage.tv/Sit_to_Stand_II.png",
+                        "url": "https://health-at-home-content.ingage.tv/Sit_to_Stand_II.mp4"
+                    },
+                    {
+                        "video_title": "One Leg Balance",
+                        "duration": 1597,
+                        "thumbnail": "https://health-at-home-content.ingage.tv/One_Leg_Balance.png",
+                        "url": "https://health-at-home-content.ingage.tv/One_Leg_Balance.mp4"
+                    },
+                    {
+                        "video_title": "Hip Hinges",
+                        "duration": 1490,
+                        "thumbnail": "https://health-at-home-content.ingage.tv/Hip_Hinges.png",
+                        "url": "https://health-at-home-content.ingage.tv/Hip_Hinges.mp4"
+                    }
+                ]
+            }
+        ]
+    }
+]

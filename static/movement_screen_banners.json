@@ -1,0 +1,26 @@
+[
+    {
+        "horizontal": [
+            {
+                "url": "https://apps.ingage.tv/drnow/ads/static/ad_720x90.png"
+            },
+            {
+                "url": "https://apps.ingage.tv/drnow/ads/static/ad_720x90.png"
+            },
+            {
+                "url": "https://apps.ingage.tv/drnow/ads/static/ad_720x90.png"
+            }
+        ],
+        "vertical": [
+            {
+                "url": "https://apps.ingage.tv/drnow/ads/static/ad_160x600.png"
+            },
+            {
+                "url": "https://apps.ingage.tv/drnow/ads/static/ad_160x600.png"
+            },
+            {
+                "url": "https://apps.ingage.tv/drnow/ads/static/ad_160x600.png"
+            }
+        ]
+    }
+]

@@ -3,6 +3,8 @@ import Home from "./screens/Home/Home";
 import MovementWelcome from "./screens/MovementWelcome/MovementWelcome";
 import MovementCategories from "./screens/MovementCategories/MovementCategories";
 import Prescriptions from "./screens/Prescriptions/Prescriptions";
+import PrescriptionsWelcome from "./screens/PrescriptionsWelcome/PrescriptionsWelcome";
+
 
 function App() {
   return (
@@ -11,6 +13,8 @@ function App() {
       <Route path="/movement-welcome" element={<MovementWelcome />} />
       <Route path="/movement-categories" element={<MovementCategories />} />
       <Route path="/prescriptions" element={<Prescriptions />} />
+      <Route path="/prescriptions-welcome" element={<PrescriptionsWelcome />} />
+
     </Routes>
   );
 }

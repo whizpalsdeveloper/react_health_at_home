@@ -20,7 +20,7 @@ export default function Home() {
       if (focusIndex === 0) {
         navigate("/movement-welcome", { state: { feature: "movement" } });
       } else if (focusIndex === 1) {
-        navigate("/prescriptions", { state: { feature: "prescriptions" } });
+        navigate("/prescriptions-welcome", { state: { feature: "prescriptions" } });
       }
     },
   });
@@ -47,7 +47,7 @@ export default function Home() {
 
       <div id="feature2-btn" className={`selectable ${focusIndex === 1 ? "focused" : ""}`} tabIndex={0}
         onMouseEnter={() => setFocusIndex(1)}
-        onClick={() => navigate("/prescriptions", { state: { feature: "prescriptions" } })}
+        onClick={() => navigate("/prescriptions-welcome", { state: { feature: "prescriptions" } })}
       >
         <img
           src={focusIndex === 1 ? "./images/order_on.png" : "./images/order_off.png"}

@@ -1,0 +1,18 @@
+[
+    {
+        "id": "1",
+        "reference": "movement",
+        "screenType": "categories",
+        "en-us": {
+            "enabled": true
+        }
+    },
+    {
+        "id": "2",
+        "reference": "prescription",
+        "screenType": "info",
+        "en-us": {
+            "enabled": true
+        }
+    }
+]

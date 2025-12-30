@@ -1,114 +1,113 @@
 #main-content {
-    position: absolute;
-    width: 1280px;
-    height: 720px;
-    left: 50%;
-    transform: translateX(-50%);
-    top: 0;
-    background: #fff;
-    font-family: "Helvetica Neue", Arial, sans-serif;
-  }
-  
-  /* Background Fade */
-  #prescriptions-bg {
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    width: 1280px;
-    height: 172px;
-    background-size: 100% 100%;
-    background-image: url("/images/topFade_bg.png");
-  }
-  
-  /* DRNOW logo (top right) */
-  #drnow-logo-prescriptions {
-    position: absolute;
-    top: 30px;
-    left: 1010px;
-    width: 210px;
-    height: 67px;
-    background-size: 100% 100%;
-    background-image: url("/images/drNow_Logo_prescriptions.png");
-  }
-  
-  /* Small DRNOW logo (top left) */
-  #drnow-logo-small {
-    position: absolute;
-    top: 31px;
-    left: 60px;
-    width: 244px;
-    height: 41px;
-    background-size: 100% 100%;
-    background-image: url("/images/smallCorner_Logo.png");
-  }
-  
-  /* Back Button */
-  #prescriptions-back-btn {
-    position: absolute;
-    top: 189px;
-    left: 59px;
-    width: 146px;
-    height: 52px;
-    background-size: 100% 100%;
-    background-image: url("/images/back_off.png");
-    cursor: pointer;
-  }
-  
-  #prescriptions-back-btn.active {
-    background-image: url("/images/back_on.png");
-  }
-  
-  /* Red Prescription Icon */
-  #prescriptions-logo {
-    position: absolute;
-    top: 88px;
-    left: 57px;
-    width: 66px;
-    height: 66px;
-    background-size: 100% 100%;
-    background-image: url("/images/Prescription_Red_icon.png");
-  }
-  
-  /* Title text */
-  #prescriptions-title {
-    position: absolute;
-    top: 102px;
-    left: 138px;
-    width: 234px;
-    height: 31px;
-    text-align: center;
-    font-size: 26px;
-    line-height: 32px;
-    color: #2E656C;
-  }
-  
-  /* QR Code Image */
-  #prescriptions-qrcode {
-    position: absolute;
-    top: 182px;
-    left: 272px;
-    width: 864px;
-    height: 382px;
-    background-size: 100% 100%;
-    background-image: url("/images/info_QR.png");
-  }
-  
-  #prescriptions-banner-horizontal {
-    position: absolute;
-    display: none;
-    top: 601px;
-    left: 287px;
-    width: 713px;
-    height: 90px;
-    background-size: 100% 100%;
-  }
-  
-  #prescriptions-banner-vertical {
-    position: absolute;
-    top: 93px;
-    left: 1063px;
-    width: 160px;
-    height: 600px;
-    background-size: 100% 100%;
-  }
-  
+	position: absolute;
+	width: 1280px;
+	height: 720px;
+	left: 50%;
+	transform: translateX(-50%);
+	top: 0;
+	background: #fff;
+	font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+/* Background Fade */
+#prescriptions-bg {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 1280px;
+	height: 172px;
+	background-size: 100% 100%;
+	background-image: url("/images/topFade_bg.png");
+}
+
+/* DRNOW logo (top right) */
+#drnow-logo-prescriptions {
+	position: absolute;
+	top: 30px;
+	left: 1010px;
+	width: 210px;
+	height: 67px;
+	background-size: 100% 100%;
+	background-image: url("/images/drNow_Logo_prescriptions.png");
+}
+
+/* Small DRNOW logo (top left) */
+#drnow-logo-small {
+	position: absolute;
+	top: 31px;
+	left: 60px;
+	width: 244px;
+	height: 41px;
+	background-size: 100% 100%;
+	background-image: url("/images/smallCorner_Logo.png");
+}
+
+/* Back Button */
+#prescriptions-back-btn {
+	position: absolute;
+	top: 189px;
+	left: 59px;
+	width: 146px;
+	height: 52px;
+	background-size: 100% 100%;
+	background-image: url("/images/back_off.png");
+	cursor: pointer;
+}
+
+#prescriptions-back-btn.active {
+	background-image: url("/images/back_on.png");
+}
+
+/* Red Prescription Icon */
+#prescriptions-logo {
+	position: absolute;
+	top: 88px;
+	left: 57px;
+	width: 66px;
+	height: 66px;
+	background-size: 100% 100%;
+	background-image: url("/images/Prescription_Red_icon.png");
+}
+
+/* Title text */
+#prescriptions-title {
+	position: absolute;
+	top: 102px;
+	left: 138px;
+	width: 234px;
+	height: 31px;
+	text-align: center;
+	font-size: 26px;
+	line-height: 32px;
+	color: #2E656C;
+}
+
+/* QR Code Image */
+#prescriptions-qrcode {
+	position: absolute;
+	top: 182px;
+	left: 272px;
+	width: 864px;
+	height: 382px;
+	background-size: 100% 100%;
+	background-image: url("/images/info_QR.png");
+}
+
+#prescriptions-banner-horizontal {
+	position: absolute;
+	display: none;
+	top: 601px;
+	left: 287px;
+	width: 713px;
+	height: 90px;
+	background-size: 100% 100%;
+}
+
+#prescriptions-banner-vertical {
+	position: absolute;
+	top: 93px;
+	left: 1063px;
+	width: 160px;
+	height: 600px;
+	background-size: 100% 100%;
+}
