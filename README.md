@@ -89,3 +89,11 @@ Icons (`icon.png`, `largeIcon.png`, `splash.png`) referenced in `webos/appinfo.j
 - If build fails with `Cannot find module @rollup/rollup-darwin-arm64`, delete `node_modules/` and `package-lock.json`, then rerun `npm install`.
 - Blank screen or routing errors inside the simulator usually mean the latest `dist/` output was not copied into `webos/`.
 - `net::ERR_FILE_NOT_FOUND` for images indicates absolute `/images/...` paths; keep asset references relative (e.g., `./images/foo.png`).
+
+- npm install -g @webos-tools/cli
+- npm run build
+- copy webos\* dist\
+- ares-package dist
+
+- copy webos\appinfo.json dist\
+- copy webos\*.png dist\

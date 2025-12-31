@@ -73,6 +73,9 @@ export default function MovementCategories() {
 			} else {
 				const selectedCategory = categories[focusIndex - 1];
 				console.log("Selected category:", selectedCategory);
+				navigate(`/category/${selectedCategory.id}`, {
+					state: { category: selectedCategory }
+				});
 			}
 		},
 		onBack: () => navigate("/movement-welcome"),
@@ -126,6 +129,9 @@ export default function MovementCategories() {
 							className={`category-btn ${focusIndex === index + 1 ? "focused" : ""}`}
 							onClick={() => {
 								setFocusIndex(index + 1);
+								navigate(`/category/${category.id}`, {
+									state: { category: category }
+								});
 							}}
 							onMouseEnter={() => setFocusIndex(index + 1)}
 						>

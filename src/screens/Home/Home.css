@@ -1,99 +1,106 @@
 /* Base main content for 1280x720 TV layout */
 #main-content {
-    position: absolute;
-    width: 1280px;
-    height: 720px;
-    left: 50%;
-    transform: translateX(-50%);
-    top: 0;
-    background-color: white;
-    overflow: hidden;
-    font-family: "Helvetica Neue", Arial, sans-serif;
-  }
-  
-  /* header fade background */
-  #main-bg {
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    width: 1280px;
-    height: 172px;
-    background-size: 100% 100%;
-    background-image: url("/images/topFade_bg.png");
-    z-index: 1;
-  }
-  
-  /* composite landing image row (photo strip) */
-  #main-images {
-    position: absolute;
-    left: 30px;
-    top: 163px;
-    width: 1225px;
-    height: 355px;
-    background-size: 100% 100%;
-    background-image: url("/images/landing_bg_images.png");
-    z-index: 2;
-  }
-  
-  /* left card */
-  #feature1-btn {
-    position: absolute;
-    top: 360px;
-    left: 136px;
-    width: 421px;
-    height: 220px;
-    z-index: 5;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  /* right card */
-  #feature2-btn {
-    position: absolute;
-    top: 360px;
-    left: 765px;
-    width: 421px;
-    height: 220px;
-    z-index: 5;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  /* cursor highlight implemented as an overlay that toggles class */
-  #main-row-cursor {
-    position: absolute;
-    width: 421px;
-    height: 220px;
-    top: -500px;
-    display: none;
-    background-size: 100% 100%;
-    z-index: 6;
-    pointer-events: none;
-  }
-  
-  #main-row-cursor.feature1 {
-    top: 360px;
-    left: 136px;
-    display: block;
-  }
-  
-  #main-row-cursor.feature2 {
-    top: 360px;
-    left: 765px;
-    display: block;
-  }
-  
-  /* small focus style for accessible keyboard focus */
-  /* .selectable:focus {
-    outline: none;
-    box-shadow: 0 0 0 6px rgba(43,161,192,0.15);
-  } */
-  
-  /* optional hover effect */
-  .selectable:hover img {
-    transform: scale(1.02);
-    transition: transform 160ms;
-  }
-  
+  position: absolute;
+  width: 1280px;
+  height: 720px;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 0;
+  background-color: white;
+  overflow: hidden;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+/* header fade background */
+#main-bg {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1280px;
+  height: 172px;
+  background-size: 100% 100%;
+  background-image: url("/images/topFade_bg.png");
+  z-index: 1;
+}
+
+/* composite landing image row (photo strip) */
+#main-images {
+  position: absolute;
+  left: 30px;
+  top: 163px;
+  width: 1225px;
+  height: 355px;
+  background-size: 100% 100%;
+  background-image: url("/images/landing_bg_images.png");
+  z-index: 2;
+}
+
+/* left card */
+#feature1-btn {
+  position: absolute;
+  top: 360px;
+  left: 136px;
+  width: 421px;
+  height: 220px;
+  z-index: 5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* right card */
+#feature2-btn {
+  position: absolute;
+  top: 360px;
+  left: 765px;
+  width: 421px;
+  height: 220px;
+  z-index: 5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* cursor highlight implemented as an overlay that toggles class */
+#main-row-cursor {
+  position: absolute;
+  width: 421px;
+  height: 220px;
+  top: -500px;
+  display: none;
+  background-size: 100% 100%;
+  z-index: 6;
+  pointer-events: none;
+}
+
+#main-row-cursor.feature1 {
+  top: 360px;
+  left: 136px;
+  display: block;
+}
+
+#main-row-cursor.feature2 {
+  top: 360px;
+  left: 765px;
+  display: block;
+}
+
+/* small focus style for accessible keyboard focus */
+
+/* optional hover effect */
+
+/* Main heading - "What would you like to do?" */
+.main-heading {
+  position: absolute;
+  top: 95px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 36px;
+  font-weight: 600;
+  color: #2c5464;
+  margin: 0;
+  z-index: 3;
+  text-align: center;
+  letter-spacing: -0.5px;
+  white-space: nowrap;
+}

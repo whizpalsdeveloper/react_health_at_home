@@ -76,16 +76,17 @@
 }
 
 #prescriptions-welcome-container .welcome-content h1 {
-    font-size: 40px;
-    margin-bottom: 30px;
+    font-size: 36px;
     font-weight: normal;
     color: #003038;
+    font-weight: 600;
 }
 
 #prescriptions-welcome-container .welcome-content p {
     font-size: 20px;
-    line-height: 1.5;
+    line-height: 1.4;
     color: #003038;
+    font-weight: 600;
 }
 
 /* Buttons */

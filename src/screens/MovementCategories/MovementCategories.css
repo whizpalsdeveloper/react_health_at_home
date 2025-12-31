@@ -5,7 +5,7 @@
 	left: 50%;
 	transform: translateX(-50%);
 	top: 0;
-	background: linear-gradient(180deg, #d9ebed 0%, #f0f7f8 50%, #e6f1f3 100%);
+	background-color: #f5f9fa;
 	overflow: hidden;
 	font-family: "Helvetica Neue", Arial, sans-serif;
 }

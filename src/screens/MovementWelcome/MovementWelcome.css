@@ -5,7 +5,7 @@
   left: 50%;
   transform: translateX(-50%);
   top: 0;
-  background-color: #ffffff;
+  background-color: #f5f9fa;
   overflow: hidden;
   font-family: "Helvetica Neue", Arial, sans-serif;
 }
@@ -71,32 +71,56 @@
 .welcome-main-container {
   position: relative;
   z-index: 10;
-  margin-top: 180px;
+  margin-top: 160px;
   text-align: center;
-  padding: 0 100px;
+  padding: 0 120px;
 }
 
 .welcome-title {
-  font-size: 36px;
-  color: #1f2d3d;
-  margin-bottom: 30px;
-  font-weight: 500;
+  font-size: 40px;
+  color: #2c5464;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.welcome-subtitle {
+  font-size: 18px;
+  color: #2c2c2c;
+  /* margin-bottom: 20px; */
+  font-weight: 600;
 }
 
 .welcome-text {
-  font-size: 17px;
-  line-height: 1.6;
+  font-size: 16px;
+  line-height: 1.65;
   color: #2c2c2c;
-  max-width: 900px;
+  max-width: 1000px;
+  margin: 0 auto 20px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.welcome-text strong {
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.welcome-text-secondary {
+  font-size: 16px;
+  line-height: 1.65;
+  color: #2c2c2c;
+  max-width: 1000px;
   margin: 0 auto;
+  text-align: center;
+  font-weight: 600;
 }
 
 /* Buttons */
 .welcome-button-row {
   display: flex;
   justify-content: center;
-  gap: 30px;
-  margin-top: 60px;
+  gap: 35px;
+  margin-top: 50px;
 }
 
 .welcome-btn {
@@ -104,10 +128,16 @@
   height: 60px;
   background-size: 100% 100%;
   cursor: pointer;
-  transition: transform 0.1s ease;
+  transition: transform 0.15s ease;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .welcome-btn.focused {
+  transform: scale(1.08);
+}
+
+.welcome-btn:hover {
   transform: scale(1.05);
 }
 

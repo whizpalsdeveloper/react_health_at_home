@@ -1,0 +1,247 @@
+.player-container {
+    position: absolute;
+    width: 1280px;
+    height: 720px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 0;
+    background-color: #000;
+}
+
+.video-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+}
+
+.main-video {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.player-ui {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    transition: opacity 0.5s ease;
+    pointer-events: none;
+}
+
+.player-ui.visible {
+    opacity: 1;
+}
+
+.player-ui.hidden {
+    opacity: 0;
+}
+
+.player-ui * {
+    pointer-events: auto;
+}
+
+.top-fade {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 120px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.7) 0%, transparent 100%);
+}
+
+.bottom-fade {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 250px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.95) 0%, rgba(0, 0, 0, 0.6) 50%, transparent 100%);
+}
+
+/* Back Button */
+.player-back-btn {
+    position: absolute;
+    top: 40px;
+    left: 80px;
+    z-index: 20;
+}
+
+.back-btn-frame {
+    padding: 6px 20px;
+    border: 2px solid #ffffff;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 8px;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.player-back-btn.focused .back-btn-frame {
+    border-color: #2da6b0;
+    background: rgba(45, 166, 176, 0.3);
+    box-shadow: 0 0 15px rgba(45, 166, 176, 0.6);
+}
+
+/* Bottom Controls & Timeline */
+/* Bottom Controls & Timeline */
+.player-bottom-controls {
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+    width: 100%;
+    padding: 0 60px;
+    box-sizing: border-box;
+    z-index: 20;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.timeline-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+}
+
+.current-time,
+.time-display {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 500;
+    min-width: 65px;
+    text-align: center;
+}
+
+.progress-bar-container {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.progress-bar-bg {
+    width: 100%;
+    height: 6px;
+    background: rgba(255, 255, 255, 0.3);
+    position: relative;
+    border-radius: 3px;
+}
+
+.progress-bar-fill {
+    height: 100%;
+    background: #2da6b0;
+    border-radius: 3px;
+}
+
+.progress-handle {
+    position: absolute;
+    top: 50%;
+    width: 16px;
+    height: 16px;
+    background: #2da6b0;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 10px rgba(45, 166, 176, 0.8);
+    border: 2px solid #fff;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.progress-handle.focused {
+    transform: translate(-50%, -50%) scale(1.3);
+    box-shadow: 0 0 15px rgba(255, 255, 255, 1), 0 0 25px rgba(45, 166, 176, 0.8);
+    border-color: #2da6b0;
+    z-index: 5;
+}
+
+.media-controls-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    width: 100%;
+    margin-bottom: 25px;
+    position: relative;
+}
+
+.control-btn {
+    width: 60px;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: 1.5px solid rgba(255, 255, 255, 0.4);
+}
+
+.control-btn.play-pause {
+    width: 100px;
+    background: rgba(45, 166, 176, 0.15);
+}
+
+.play-pause-label {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.control-btn img {
+    height: 20px;
+    object-fit: contain;
+}
+
+.control-btn.focused {
+    border-color: #2da6b0;
+    background: rgba(45, 166, 176, 0.4);
+    box-shadow: 0 0 15px rgba(45, 166, 176, 0.4);
+}
+
+/* Branding Area (Bottom Right) */
+.player-branding-area {
+    position: absolute;
+    bottom: 40px;
+    right: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 10px;
+    z-index: 20;
+}
+
+.branding-logo img {
+    height: 60px;
+    object-fit: contain;
+}
+
+.qr-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    border-radius: 12px;
+    backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.qr-box img {
+    width: 100px;
+    height: 100px;
+    background: #ffffff;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.qr-label {
+    color: #ffffff;
+    font-size: 14px;
+    margin-top: 5px;
+    font-weight: 500;
+}

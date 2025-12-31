@@ -33,6 +33,9 @@ export default function Home() {
 
       <Header />
 
+      {/* Main heading */}
+      <h1 className="main-heading">What would you like to do?</h1>
+
       {/* big cards */}
       <div id="feature1-btn" className={`selectable ${focusIndex === 0 ? "focused" : ""}`} tabIndex={0}
         onMouseEnter={() => setFocusIndex(0)}
@@ -58,12 +61,6 @@ export default function Home() {
 
       {/* main-row-cursor that mimics highlight position from your old code */}
       <div id="main-row-cursor" className={focusIndex === 0 ? "feature1" : "feature2"} />
-
-      {/* Additional elements kept for compatibility with original CSS/IDs */}
-      <div id="movement-title" />
-      <div id="movement-cta" />
-      <div id="category-hero" />
-      <div id="focus-item" />
     </div>
   );
 }

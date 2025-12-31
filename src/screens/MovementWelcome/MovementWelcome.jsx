@@ -32,9 +32,15 @@ export default function MovementWelcome() {
 
       <div className="welcome-main-container">
         <h1 className="welcome-title">Welcome</h1>
+        
+        <p className="welcome-subtitle">Before we begin, please read this VERY IMPORTANT passage:</p>
 
         <p className="welcome-text">
-          Comcast is providing you with a connection to a third-party pharmaceutical provider in a HIPAA-compliant, SOC 2 secure setting (to ensure the privacy and protection of your personal data), through the Health At Home (HAH) application. To be clear, neither Comcast nor Dr. NOW Prescriptions is providing you with any healthcare, prescription, or other professional advice. By affirmatively selecting the button below, you acknowledge and voluntarily accept the inherent risks associated with receiving those services. Further, you expressly agree to hold Comcast and Dr. NOW harmless and waive any liability regarding your healthcare, pharmaceutical, and professional treatment when using the Dr. NOW app and fully understand you are leaving Comcast's programming.
+          By participating in FunAndMoving.com (The FAM) and any of its related apps, you acknowledge that you have been advised by this notice that you should obtain and have completed a physical examination and received medical approval <strong>PRIOR</strong> to commencing a movement and exercise program or engaging in <strong>ANY</strong> strenuous activity or activity out of your <strong>SUBJECTIVE</strong> normal activities performed, to include FAM. I fully acknowledge and understand that I release FAM and its designated staff and trainers of any and all liability; and that I am waiving any right I or my successors may have to assert a claim or bring any legal action against FAM.
+        </p>
+
+        <p className="welcome-text-secondary">
+          My physician has given me permission to do all of the movements and exercises contained herein. I also understand that my assent and date thereof will be recorded by FunAndMoving.com.
         </p>
 
         <div className="welcome-button-row">
